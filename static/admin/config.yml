@@ -74,7 +74,7 @@ collections:
     files: 
       -name: 'general'
       label: 'Site settings'
-      file: 'config.json'
+      file: 'src/data/config.json'
       description: 'General Site Settings'
       fields: 
         - { label: 'Global title', name: 'site_title', widget: 'string' }
@@ -95,5 +95,5 @@ collections:
                 name: thumb,
                 widget: image,
                 class: 'thumb',
-                required: false,
+                required: false
               }
