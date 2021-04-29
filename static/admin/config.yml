@@ -67,6 +67,7 @@ collections:
 
   - name: 'settings'
     label: 'Settings'
+    extension: "json"
     delete: false 
     editor: 
       preview: false 
