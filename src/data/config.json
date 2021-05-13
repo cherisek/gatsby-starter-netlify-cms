@@ -1,13 +1,13 @@
 {
    "hero": [
      {
-       "hero_headline_top": "This headline changed",
+       "heading": "This headline changed",
        "hero_headline_bottom": "Become a Certified TEST",
        "hero_subhead": "subhead test", 
        "hero_button_text": "Add to Cart"
      }, 
      {
-      "hero_headline_top": "Test",
+      "heading": "Test",
       "hero_headline_bottom": "Become a Certified TEST TEST",
       "hero_subhead": "subhead test", 
       "hero_button_text": "Add to Cart"
