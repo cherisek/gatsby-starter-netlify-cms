@@ -65,5 +65,39 @@ collections:
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
 
+      - name: 'team' 
+      label: 'Team Members'
+      label_singular: 'Team Member'
+      editor:
+          preview: false
+      delete: false
+      preview_path: 'team'
+      files:
+          - label: 'Members'
+            name: 'members'
+            file: 'data/config.json'
+            fields:
+                - label: Members
+                  name: members
+                  widget: list
+                  allow_add: true
+                  fields:
+                      - { label: 'Name', name: 'name', widget: 'string' }
+                      - label: 'Image'
+                        name: 'image'
+                        widget: 'object'
+                        fields:
+                            - { label: 'Photo', name: 'main', widget: 'image' }
+                            - { label: 'Photo Alt', name: 'alt', widget: 'image' }
+                      - { label: 'Position', name: 'position', widget: 'string' }
+                      - { label: 'Bio', name: 'bio', widget: 'string' }
+                      - { label: 'Background', name: 'background', widget: 'string' }
+                      - label: 'Social'
+                        name: 'social'
+                        widget: 'list'
+                        fields:
+                            - { label: 'Name', name: 'name', widget: 'string' }
+                            - { label: 'Link', name: 'link', widget: 'string' }
+
 
 
