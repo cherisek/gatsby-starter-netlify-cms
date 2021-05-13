@@ -1,5 +1,5 @@
 ---
-templateKey: index-page
+templateKey: test-page
 title: TEST
 ---
 
