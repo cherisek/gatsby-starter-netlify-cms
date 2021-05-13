@@ -1,16 +1,16 @@
 {
    "hero": [
      {
-       "heroHeadlineTop": "Personal Trainer Certification",
-       "heroHeadlineBottom": "Become a Certified",
-       "heroSubhead": "subhead test", 
-       "heroButtonText": "Add to Cart"
+       "hero_headline_top": "Personal Trainer Certification",
+       "hero_headline_bottom": "Become a Certified",
+       "hero_subhead": "subhead test", 
+       "hero_button_text": "Add to Cart"
      }, 
      {
-       "heroHeadline": "HEADLINE TEST 2",
-       "heroHeadlineBottom": "Become a Certified",
-       "heroSubhead": "subhead test", 
-       "heroButtonText": "Add to Cart"
+      "hero_headline_top": "Personal Trainer Certification",
+      "hero_headline_bottom": "Become a Certified",
+      "hero_subhead": "subhead test", 
+      "hero_button_text": "Add to Cart"
      }
    ]
  }
