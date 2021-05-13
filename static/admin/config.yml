@@ -51,7 +51,7 @@ collections:
         name: test
         fields:           
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "test-page"}
-          - {label: "Headline Top", name: "headline top", widget: "string"}
+          - {label: "Headline Top", name: "title", widget: "string"}
           # - {label: "Hero Headline Bottom", name: "headline bottom", widget: "string"}
           # - {label: "Hero Headline Text", name: "headline subhead", widget: "string"}
       - file: "src/pages/about/index.md"
