@@ -1,16 +1,16 @@
 {
    "hero": [
      {
-       "key": 1,
-       "heroHeadlineTop": "HEADLINE TEST",
+       "heroHeadlineTop": "Personal Trainer Certification",
        "heroHeadlineBottom": "Become a Certified",
        "heroSubhead": "subhead test", 
        "heroButtonText": "Add to Cart"
      }, 
      {
-       "key": 2,
        "heroHeadline": "HEADLINE TEST 2",
-       "heroSubhead": "subhead tes 2"
+       "heroHeadlineBottom": "Become a Certified",
+       "heroSubhead": "subhead test", 
+       "heroButtonText": "Add to Cart"
      }
    ]
  }

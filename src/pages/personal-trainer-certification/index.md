@@ -1,13 +1,7 @@
 ---
-<<<<<<< HEAD:src/pages/personal-trainer-certification/index.md
-templateKey: 'about-page'
-path: /personal-trainer-certication
-title: About our values
-=======
 templateKey: about-page
 path: /about
 title: TEST
->>>>>>> e757e3b02488ab4cc033a0987f3e470c91a3a202:src/pages/about/index.md
 ---
 ### Shade-grown coffee
 Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
