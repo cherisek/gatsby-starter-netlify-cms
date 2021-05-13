@@ -12,20 +12,44 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "Homepage"
-    label: "Homepage"
-    folder: "src/pages/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+  - name: "settings"
+    label: "settings"
+    delete: false 
+    editor: 
+      preview: false
+        files:
+    - name: "general"
+      label: "Site Config"
+      file: "data/config.json"
+      description: "General site settings"
+      fields:
+        - label: "headline top"
+          name: "hero_headline_top"
+          widget: "string"
+        - label: "headline bottom"
+          name: "hero_headline_bottom"
+          widget: "string"
+        - label: "hero subhead"
+          name: "hero_subhead"
+          widget: "string"
+        - label: "hero button text"
+          name: "hero_button_text"
+          widget: "string"
+
+  # - name: "Homepage"
+  #   label: "Homepage"
+  #   folder: "src/pages/blog"
+  #   create: true
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  #   fields:
+  #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Publish Date", name: "date", widget: "datetime"}
+  #     - {label: "Description", name: "description", widget: "text"}
+  #     - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+  #     - {label: "Featured Image", name: "featuredimage", widget: image}
+  #     - {label: "Body", name: "body", widget: "markdown"}
+  #     - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "pages"
     label: "Pages"
