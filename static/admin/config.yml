@@ -38,7 +38,7 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Headline, name: title, widget: string}
+          - {label: Hero Headline Top, name: hero headline top, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Subheading, name: subheading, widget: string}
@@ -51,7 +51,7 @@ collections:
         name: test
         fields:           
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "test-page"}
-          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Hero Headline Top", name: "hero headline top", widget: "string"}
           # - {label: "Hero Headline Bottom", name: "headline bottom", widget: "string"}
           # - {label: "Hero Headline Text", name: "headline subhead", widget: "string"}
       - file: "src/pages/about/index.md"
