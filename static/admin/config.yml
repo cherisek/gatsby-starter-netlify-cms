@@ -51,7 +51,7 @@ collections:
         name: test
         fields:           
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "test-page"}
-          - {label: body, name: body, widget: code}
+          - {label: "Title", name: "title", widget: "string"}
           # - {label: "Heading", name: "heading", widget: "string"}
           # - {label: "Hero Headline Bottom", name: "headline bottom", widget: "string"}
           # - {label: "Hero Headline Text", name: "headline subhead", widget: "string"}
