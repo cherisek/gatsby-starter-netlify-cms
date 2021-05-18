@@ -12,18 +12,27 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "Pages"
-    label: "Pages"
+  - name: "test"
+    label: "test"
     extension: "json"
     format: "json"
     folder: data/config.json
     slug: "{{slug}}"
-    editor: 
-      preview: false
-    fields: 
+    editor:
+       preview: false
+    fields:
       - {name: title}
-        label: Title
-        widget: list 
+      - name: sections
+        label: Sections
+        widget: list
+        fields:
+        - {name: title}
+        - name: links
+          label: Links
+          widget: list
+          fields:
+            - {name: title}
+            - {name: url}
       
 
 
