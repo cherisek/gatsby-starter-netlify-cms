@@ -35,10 +35,10 @@ collections:
     slug: "{{slug}}"
     editor: 
       preview: false
-      fields: 
-        - {name: title}
-          label: Title
-          widget: list 
+    fields: 
+      - {name: title}
+        label: Title
+        widget: list 
       
 
 
