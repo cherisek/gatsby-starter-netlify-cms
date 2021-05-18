@@ -30,29 +30,16 @@ collections:
   - name: "pages"
     label: "Pages"
     extension: "json"
+    format: "json"
+    dolder: data/config.json
+    slug: "{{slug}}"
     editor: 
       preview: false
-    files:
-      - file: "src/pages/index.md"
-        label: "Landing Page"
-        name: "index"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
+      fields: 
+        - {name: title}
+          label: Title
+          widget: list 
       
-      - file: "data/config.json"
-        label: "test"
-        name: test
-        fields:           
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "test-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          # - {label: "Heading", name: "heading", widget: "string"}
-          # - {label: "Hero Headline Bottom", name: "headline bottom", widget: "string"}
-          # - {label: "Hero Headline Text", name: "headline subhead", widget: "string"}
-
 
 
 
