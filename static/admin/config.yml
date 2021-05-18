@@ -48,6 +48,8 @@ collections:
       - file: "data/config.json"
         label: "test"
         name: test
+        extension: "json"
+        format: "json"
         slug: "{{slug}}"
         fields:           
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "test-page"}
