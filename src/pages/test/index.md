@@ -1,6 +1,6 @@
 ---
 templateKey: test-page
-path: /test
+path: /config.json
 title: TEST
 ---
 
